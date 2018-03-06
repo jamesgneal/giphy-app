@@ -34,7 +34,7 @@ $(document).ready(function () {
     })
 
     // clicking any giphy buttons
-    $(".giphy-button").on("click", function () {
+    $("#buttonville").on("click", ".giphy-button", function () {
         $("#gif-catcher").empty();
         var giphySubject = $(this).attr("data-subject"),
             queryURL = `https://api.giphy.com/v1/gifs/search?q=${giphySubject}&api_key=dc6zaTOxFJmzC&limit=10`;

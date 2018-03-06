@@ -5,6 +5,7 @@
 
 #magic-maker {
     display: block;
+    width: 270px;
 }
 
 .each-gif {
@@ -16,13 +17,14 @@
     position: fixed;
     z-index: 100;
     width: 300px;
-    padding: 20px;
+    padding: 15px;
 }
 
 #topic {
-    width: 280px;
+    width: 270px;
 }
 
 #gif-catcher {
-    padding-left: 253px;
+    padding-top: 15px;
+    padding-left: 300px;
 }
