@@ -27,5 +27,10 @@
 #gif-catcher {
     margin-top: 15px;
     margin-left: 300px;
-    min-width: 355px;
+}
+
+@media only screen and (max-width: 640px) {
+    body {
+        min-width: 640px;
+    }
 }
