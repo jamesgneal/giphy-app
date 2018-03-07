@@ -17,7 +17,7 @@
     position: fixed;
     z-index: 100;
     width: 300px;
-    padding: 15px;
+    padding-left: 15px;
 }
 
 #topic {
@@ -27,10 +27,4 @@
 #gif-catcher {
     margin-top: 15px;
     margin-left: 300px;
-}
-
-@media only screen and (max-width: 640px) {
-    body {
-        width: 640px;
-    }
 }
