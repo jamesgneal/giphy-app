@@ -23,8 +23,8 @@ $(document).ready(function () {
 
     renderButtons();
 
-    // clicking the #magic-maker
-    $("#magic-maker").on("click", function() {
+    // clicking/submitting the #magic-maker
+    $("#magic-maker").click(function() {
         event.preventDefault();
         var newTopic = $("#topic").val().trim();
         topics.push(newTopic);

@@ -25,6 +25,7 @@
 }
 
 #gif-catcher {
-    padding-top: 15px;
-    padding-left: 300px;
+    margin-top: 15px;
+    margin-left: 300px;
+    min-width: 355px;
 }
